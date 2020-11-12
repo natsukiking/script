@@ -1,5 +1,5 @@
 # File: .github/workflows/repo-sync.yml
-name: 同步 Github Actions
+name: Update Actions
 on:
   schedule:
     - cron: '1 0,15 * * *'
