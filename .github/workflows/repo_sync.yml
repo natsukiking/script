@@ -9,7 +9,7 @@ on:
   push:
     branches: [ master ]
   repository_dispatch:
-    types: sync-nat
+    types: Mickey
 jobs:
   repo-sync:
     env:
