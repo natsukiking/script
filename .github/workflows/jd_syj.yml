@@ -10,7 +10,7 @@ on:
   # watch:
   #   types: started
   repository_dispatch:
-    types: ms_redrain
+    types: syj
 jobs:
   build:
 
@@ -33,7 +33,7 @@ jobs:
           key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('package-lock.json') }} # 使用 package-lock.json 的 Hash 作为缓存的 key。也可以使用 package.json 代替
       - name: '运行 【十元街】’
         run: | 
-          cd ~/scripts
+          git clone https://gitee.com/lxk0301/jd_scripts.git ~/scripts
           npm install
           node jd_syj.js
         env:
