@@ -6,7 +6,7 @@ name: jd_gyec
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/3 * * * *'
+    - cron: '*/1 * * * *'
   # watch:
   #   types: started
   repository_dispatch:
