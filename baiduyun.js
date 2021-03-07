@@ -29,10 +29,10 @@ let obj = {
   },
   "request_id": 7501873289383874371,
   "guide_data": {
-    "title": "宇宙无敌超级会员 SVIP",
+    "title": "超级会员 DYS",
     "content": "已拥有戴依珊+喷水高潮特权",
     "button": {
-      "text": "性爱中心",
+      "text": "守望先锋",
       "action_url": "https://pan.baidu.com/wap/vip/user?from=myvip2#svip"
     }
   }
