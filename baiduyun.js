@@ -29,10 +29,10 @@ let obj = {
   },
   "request_id": 7501873289383874371,
   "guide_data": {
-    "title": "超级会员 SSVIP",
+    "title": "超级会员 SVIP",
     "content": "已拥有极速下载+视频倍速特权",
     "button": {
-      "text": "守望先锋",
+      "text": "会员中心",
       "action_url": "https://pan.baidu.com/wap/vip/user?from=myvip2#svip"
     }
   }
